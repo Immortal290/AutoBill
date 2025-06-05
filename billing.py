@@ -100,7 +100,7 @@ def find_weight():
 
 def post(label, price, final_rate, taken):
     global id_product
-    url = "https://automaticbilling.onrender.com/product"  # Changed to Render URL
+    url = "https://autobill-4.onrender.com"  # Changed to Render URL
     headers = CaseInsensitiveDict()
     headers["Content-Type"] = "application/json"
     data_dict = {
