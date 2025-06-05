@@ -1,4 +1,6 @@
+opencv-python-headless
+requests
 flask
 gunicorn
-requests
+
 
