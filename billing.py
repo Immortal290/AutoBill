@@ -21,7 +21,8 @@ c_value = 0
 flag = 0
 ratio = -1363.992
 
-global id_product = 1
+global id_product
+id_product = 1
 list_label = []
 list_weight = []
 count = 0
