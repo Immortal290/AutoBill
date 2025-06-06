@@ -1,7 +1,6 @@
 services:
   - type: web
-    name: auto-billing-api
+    name: your-app-name
     env: python
-    plan: free
-    buildCommand: ""
+    buildCommand: ./render-build.sh && pip install -r requirements.txt
     startCommand: gunicorn app:app
