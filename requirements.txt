@@ -2,5 +2,6 @@ opencv-python-headless
 requests
 flask
 gunicorn
+edge-impulse-linux
 
 
