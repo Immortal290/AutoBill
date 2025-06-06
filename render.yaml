@@ -1,6 +1,13 @@
 services:
   - type: web
-    name: your-app-name
+    name: self-checkout-api
     env: python
-    buildCommand: ./render-build.sh && pip install -r requirements.txt
+    buildCommand: |
+      apt-get update && \
+      apt-get install -y portaudio19-dev libasound-dev libffi-dev build-essential && \
+      pip install --upgrade pip && \
+      pip install -r requirements.txt
     startCommand: gunicorn app:app
+    region: oregon  # or your preferred region
+    plan: free
+
