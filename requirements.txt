@@ -3,5 +3,6 @@ requests
 flask
 gunicorn
 edge-impulse-linux
+pyaudio
 
 
